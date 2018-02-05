@@ -1,0 +1,129 @@
+﻿*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    box-sizing:border-box;
+}
+body {
+    color:black;
+}
+ main mark{
+    
+}
+header.main{
+    background-color:#808080;
+    text-align:center;
+    padding:20px;
+}
+#headnav{
+    background-color:#DDD;
+     text-align:center;
+     padding:20px;
+}
+#headnav ul li{
+    display:inline-block;
+    list-style:none;
+    cursor:crosshair;
+
+}
+#headnav ul li:after{
+    content:" | ";
+}
+#headnav ul li:last-child::after{
+    content:"";
+}
+main{
+    background-color:#DDD;
+    padding:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+}
+#post {
+    width:70%;float:left;
+    background-color:antiquewhite;
+}
+
+ #post article{
+    margin:20px;
+    border:2px solid #ff0000;
+   width:70%;
+}
+  #post article header{
+    background-color:#DDD;
+    padding:10px;
+}
+  #post  article section{
+    padding:10px;
+    font-size:20px;
+}
+footer{
+    background-color:#808080;
+    text-align:center;
+    padding:10PX;
+}
+.clearfix{
+    clear:both;
+   
+}
+aside{
+   
+    float:right;
+    width:30%;
+    color:white;
+        
+    
+}
+aside section {
+
+   margin:20px 10PX;
+   
+  
+    background-color:#2b2a2a;
+    padding:10px;
+
+}
+aside section h3{
+    background-color:#72f63d;
+    padding:5px;
+    margin-bottom:20px;
+}
+
+aside section#links ul li{
+   
+    list-style:none;
+    line-height:30px;
+
+}
+aside section div{
+    
+}
+
+ #post  article section details{
+     margin:10px;
+ }
+ #post  article section long-link{
+     width:200px;
+ }
+ #post article section figure{
+     width:607px;
+      display:block;
+      margin:10px;
+      border:solid 1px black;
+
+ }
+ #post article section figure img{
+    height: 300px;
+    width: 300px;
+    border:solid 1px #808080;
+    padding:3px;
+    background-color:#FFF;
+ }
+  #post article section figure figcaption{
+      text-align:center;
+  }
+  #post article section .html5 input{
+      margin-bottom:10px;
+      display:block;
+  }

@@ -1,0 +1,255 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <script src="JavaScript.js"></script>
+</head>
+<body>
+    <header class="main"><h1>HTML5 Web Course </h1></header>
+
+
+    <nav id="headnav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Countact Us</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        Welcome to Our <mark>Html5</mark>  Course 
+   
+    </main>
+
+
+    <div id="post">
+
+    <article>
+        <header><h3> Mine New WeebSite Progress</h3>
+        <p>Creadted By Mohamed Feto On <time datetime="2017-8-26 16:15">21/8/2017</time></p>
+        </header>
+
+        <section>
+            <p>This Artical Number #1 &lt; Progress &gt;</p>
+        <div>
+            Design:<progress value="60" max="100"></progress> <br />
+            Coding:<progress value="80" max="100"></progress>
+        </div>
+        </section>
+
+    </article>
+
+
+    <article>
+        <header>
+            <h3>Artical About &lt;Detalis&gt; </h3>
+            <p>Creadted By Mohamed Feto</p>
+        </header>
+        <section><p>This Artical Number #2</p>
+        <details>
+            <summary>References</summary>
+            <ul>
+                <li><a href="#">Ref1</a></li>
+                <li><a href="#">Ref2</a></li>
+                <li><a href="#">Ref3</a></li>
+            </ul>
+
+            
+        </details>
+        
+        </section>
+    </article>
+
+
+    <article>
+        <header>
+            <h3>Artical About &lt; wbr &gt;  </h3>
+            <p>Creadted By Mohamed Feto</p>
+        </header>
+        <section><p>This Artical Number #3</p>
+        <div class="long-link">
+            https/://cafe.daum.net/pot-tool/<wbr />product.php?id=200&cat=5000&test=100&name=ahmed&<wbr>mainsection<wbr />
+        </div>
+        
+        </section>
+       
+    </article>
+
+
+        <article>
+            <header>
+                <h3>Artical About Using Figure  </h3>
+                <p>Creadted By Mohamed Feto</p>
+            </header>
+            <section>
+                <p>This Articl is mine Photo </p>
+                <figure>
+                    <img src="IMG_6997.JPG" />
+                    <img src="IMG_6997.JPG" />
+                    
+                    <figcaption> #This is Mohamed Fathallah </figcaption>
+
+                </figure>
+
+            </section>
+
+        </article>
+
+        <article>
+            <header>
+            <h3>This Is Mine video on YouTube</h3>
+            <p>IT Geeks channel Presenting ^^</p>
+            </header>
+
+            <section>
+                <p>My Videos in YouTube</p>
+                <video controls  width="500" height="300" poster="run.jpg">
+                   
+
+                        <source src="Video2.mp4" type="video/mp4" />
+             
+                   
+                    Your Browser dosen't support video
+                </video>
+            </section>
+
+        </article>
+        <article>
+            <header>
+                <h3>Using new Input filed, Ragne,Number#18</h3>
+                <p>IT Geeks channel Presenting ^^</p>
+            </header>
+
+            <section>
+                <p> Those are New Awesome Input In Html5 ^_~</p><br />
+               <form class="html5">
+                   <label>Color Input</label>&nbsp;<input type="color"  name="Colors"/> <br />
+                  <label>Range Input</label>&nbsp; <input type="range" name="range"  min="0" max="10" value="3" step="2"/><br />
+                  <label>Number Input</label> &nbsp;<input type="number" min="1" max="50" name="numberselected" /><br />
+               
+                   <label>Email Input</label>  &nbsp;  <input type="email" /> <br />
+                   <label>Search Input </label> &nbsp; <input type="search" name="search" /> <br />
+                   <label>URL</label> &nbsp;<input type="url" /><br />
+                   <label>Time Input</label><input type="time" />
+                   <label>date time</label><input type="datetime-local" name="date and time" />
+                   <input type="date" />
+                   <p><bdi>حقول الادخال دى بقا بتعمل فلديشن لوحدها  (حلوه فلدشن دى) ^^ ظظ</bdi></p>
+
+                   <input type="submit" value="Send" /> <br />
+               </form>
+            </section>
+
+        </article>
+
+
+        <article>
+            <header>
+                <h3>Artical ABOUT News attribute  </h3>
+                <p>Creadted By Mohamed Feto</p>
+            </header>
+            <section>
+                <p>This Artical Number #2</p>
+                <form  action="process.aspx" method="get"  enctype="application/x-www-form-urlencoded" class="html5" id="main-form">
+                    <input type="text" name="username" autocomplete="off" autofocus placeholder="Enter Your Name"  />
+                    <input type="email" name="email"  placeholder="Enter your Email" multiple  />
+                    <input type="number" max="20" min="1" step="1" />
+                    <label>Pattern</label>
+                    <input type="text" pattern="[A-Za-z]{6}"  name="pattern"/>
+                    <input type="submit" value="Defult Submit" formtarget="_blank"/>
+                    <input type="submit"  value="OtherSubmit with out validate" formaction="other.aspx" formmethod="get" formnovalidate/>
+                    
+
+                </form>
+                <!--ربط انبوت خارج الفورم بى الفورم-->
+                <input type="text" placeholder="Nick Name" form="main-form" name="nickname" required />
+            </section>
+        </article>
+
+        </div>
+    <aside>
+        <section id="links">
+            <h3>Courses</h3>
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">C#</a></li>
+                <li><a href="#">PHP</a></li>
+                <li><a href="#">CSS</a></li>
+            </ul>
+        </section>
+
+        <section id="meter">
+            <h3>Performace</h3>
+            <div>
+                <!-- الفروض بقا يجيب القيم دى من الجهاز اليفتح او الداتا بيز -->
+                Cpu: <meter min = "0" 
+                             max = "1"
+                             value = ".6" 
+                            low = "0.4"
+                            high="0.6"
+                             optimum = "1"></meter>  
+                 <br />
+
+                Ram:<meter min="0" max="1" value="0.9"></meter> 
+            </div>
+         </section>
+       <section class="top-member">
+           <h3>Top Members</h3>
+           <ul>
+               <li>Mohamed : 70 </li>
+               <li>Ahmed: 60</li>
+               <li>Yousef : 50</li>
+               <li><bdi>على</bdi>:80Point</li>
+           </ul>
+       </section>
+        <section class="poll">
+            <h3>What's Your Best Browser ?</h3>
+            <form name="form1" oninput="hit.value = hi.value" >  
+                    
+                <input list="browsers" name="Browser"/>
+
+                <datalist id="browsers">
+                    <option value="Opera">
+                    <option value="FireFox">
+                    <option value="Googel Chrome">
+                    <option value="Safari">
+
+                   
+                 </datalist>
+                
+                <input type="submit" onclick="hiz();" value="Submit" style="padding:5px; margin-top:5px; margin-left:5px; "/>
+                <output name="hit"></output>
+            </form>
+
+        </section>
+        <section>
+            <h3>Calculate Your Age in Days</h3>
+            <form oninput="result.value = parseInt(age.value) * parseInt(days.value)  + ' Days ' ">
+                <input type="text" name="age" />
+                <input type="hidden" value="365" name="days" />
+                <output name="result"></output>
+            </form>
+        </section>
+        <section>
+            <h3>Audio of Today</h3>
+           
+            <audio controls="controls"   > <!-- autoplay >اول متفتح الصفحه يشتغل لوحده-->  <!--loop:mean to restart again// muted-->
+
+                <source src="Njoot.mp3" type="audio/mpeg" />
+                <source src="Njoot.ogg" type="audio/ogg" /> <!--عشان تدعم معظم المتصفحات بس حول اللاديو للogg-->
+                Your Browser dosen't support audio
+            </audio>
+              
+        </section>
+        
+    </aside>
+    <div class="clearfix">
+
+    </div>
+   
+    <footer>Copyright 2017 &copy; All Right Reserved</footer>
+</body>
+</html>
